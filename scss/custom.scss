@@ -1,9 +1,11 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
+$body-bg: white;
 $body-color: white;
-$primary: hotpink;
+$primary: pink;
 $font-family-base: Arial;
+$jumbotron-padding: 50px;
+$jumbotron-bg: transparent;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -12,4 +14,16 @@ $font-family-base: Arial;
 
 body {
   margin: 20px;
+  color: black;
+  background-image: url(/31.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
+
+.navbar {
+  border-radius: 45px;
 }
