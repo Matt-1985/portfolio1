@@ -9982,4 +9982,8 @@ h1 {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=custom.css.map */
