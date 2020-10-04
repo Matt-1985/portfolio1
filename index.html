@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
       rel="stylesheet"
@@ -15,6 +16,32 @@
       href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap"
       rel="stylesheet"
     />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_package_v0.16 (1)/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_package_v0.16 (1)/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_package_v0.16 (1)/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_package_v0.16 (1)/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon_package_v0.16 (1)/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Custom Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css" />
@@ -23,7 +50,7 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <section>
+    <section id="top">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"></a>
         <button
@@ -45,15 +72,15 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">about</a>
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.rickandmorty.com/"
-                >secrets of a happy life</a
+                >secret to a happy life</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="card.html">me, myself & I</a>
             </li>
           </ul>
         </div>
@@ -63,7 +90,7 @@
 
     <!--Jumbotron-->
 
-    <section id="about">
+    <section>
       <div class="jumbotron">
         <h1 class="display-4">Hey 🤙🏻 i am Matthias Rodrigues de Fran&#231;a</h1>
         <p class="lead">New to this business and highly motivated.</p>
@@ -74,7 +101,7 @@
           appreciation
         </p>
         <div class="social">
-          <a href="http://www.facebook.com/ma.v.ze.3"
+          <a href="https://www.facebook.com/ma.v.ze.3/"
             ><img src="/social/iconmonstr-facebook-3-48.png" alt=""
           /></a>
         </div>
@@ -93,17 +120,14 @@
 
     <!--About Me Img Section-->
 
-    <section>
+    <section id="about">
       <div>
         <div class="object-fit">
-          <a href="#memyselfi"
+          <a href="#about"
             ><img
               src="/images/IMG_7868.jpeg_bilder-freistellen-online.de Kopie.png"
               alt="Matthias"
               class="responsive"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="More about me"
           /></a>
         </div>
       </div>
@@ -112,9 +136,10 @@
     <!--About Me Section-->
 
     <section>
-      <h4 class="highlight"><b>me, myself & i</b></h4>
-      <p class="highlight">let's talk about...</p>
-      <a name="memyselfi"></a>
+      <div class="section-heading">
+        <h4 class="highlight"><b>about</b></h4>
+        <p class="highlight">let's talk about...</p>
+      </div>
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card h-100">
@@ -154,19 +179,26 @@
                 speartime I love to unify with my couch and watch my favorit
                 series.
               </p>
+
+              <p></p>
             </div>
           </div>
         </div>
         <div class="col mb-4">
           <div class="card h-100">
             <img
-              src="/images/nikita-kachanovsky-mwytIca3qNA-unsplash.jpg"
+              src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">PlayStation</h5>
-              <p class="card-text">Team PlayStation. Always was, always be!</p>
+              <h5 class="card-title">Web Develpment</h5>
+              <p class="card-text">
+                As mentioned in my entry statement I'm a beginner...but from the
+                moment I started to engage myself with coding I learned to
+                appriciate this emotion whirligig of dispair, relief and joy if
+                your components finally work.
+              </p>
             </div>
           </div>
         </div>
@@ -231,6 +263,63 @@
         </div>
       </div>
     </section>
+
+    <!-- Skill Img Section-->
+    <section id="skills">
+      <div>
+        <div class="object-fit">
+          <a href="#skills"
+            ><img
+              src="/images/IMG_401119DAEA6D-1.jpeg_bilder-freistellen-online.de.png"
+              alt="Matthias"
+              class="responsive"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill Section-->
+    <section>
+      <div class="section-heading">
+        <h4 class="highlight"><b>skills</b></h4>
+        <p class="highlight">learning by doing...</p>
+      </div>
+      <div class="skillsection">
+        <ul class="list-unstyled">
+          <li class="media">
+            <img src="/images/affe-1_1.ico" class="mr-3" alt="affe" />
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">GitHub</h5>
+              <b>Level:</b> Beginner
+            </div>
+          </li>
+          <li class="media my-4">
+            <img src="/images/affe-2.ico" class="mr-3" alt="affe" />
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">HTML5 & CSS3</h5>
+              <b>Level:</b> Beginner
+            </div>
+          </li>
+          <li class="media">
+            <img src="/images/affe-3.ico" class="mr-3" alt="affe" />
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">JavaScript</h5>
+              <b>Level:</b> Let's talk about this in 3 weeks
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Back to the top-->
+    <div class="arrow">
+      <a href="#top" class="highlight"
+        ><img src="/images/up-arrow.png" alt="arrow"
+      /></a>
+    </div>
+
+    <!-- Footer -->
+    <footer></footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
