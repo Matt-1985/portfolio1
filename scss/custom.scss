@@ -1,9 +1,12 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
+$body-bg: white;
 $body-color: white;
-$primary: hotpink;
+$primary: pink;
 $font-family-base: Arial;
+$jumbotron-padding: 50px;
+$jumbotron-bg: transparent;
+$card-border-color: transparent;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -12,4 +15,91 @@ $font-family-base: Arial;
 
 body {
   margin: 20px;
+  color: black;
+  background-image: url(/31.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+.navbar {
+  border-radius: 45px;
+}
+
+.lead {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.highlight {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.social {
+  float: left;
+  width: 4em;
+  height: 4em;
+}
+
+.zwei {
+  width: 2em;
+  height: 2em;
+}
+.drei {
+  width: 2em;
+  height: 2em;
+}
+
+.object-fit {
+  width: 300px;
+  height: 300px;
+  margin: 3em auto;
+}
+.object-fit img {
+  object-fit: initial;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.card-img-top {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.object-fit .two {
+  margin-top: 300px;
+}
+
+.skillsection {
+  padding-top: 3em auto;
+}
+
+.section-heading {
+  margin: 50px 0 50px 10px;
+}
+
+.hrfooter {
+  margin: 70px;
+}
+
+.arrow {
+  position: absolute;
+  right: 1em;
+}
+
+.footer-copyright {
+  margin: 70px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
