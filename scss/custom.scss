@@ -16,9 +16,7 @@ $card-border-color: transparent;
 body {
   margin: 20px;
   color: black;
-  background-image: url(./images/31.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: $primary;
 }
 
 h1 {
